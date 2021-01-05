@@ -29,6 +29,9 @@ df=df.rename(columns={0: "nom_ent",
 ##convertir los números de string a entero
 df['credvivn'] = df['credvivn'].str.replace(',', '').astype(int)
 
+##Corregir nombres de entidades
+
+df['nom_ent'] = df['nom_ent'].replace(['Quintan Roo'],'Quintana Roo')
 
 ##Salvar en csv
 df.to_csv (r'C:/Users/ALIENWARE/Documents/canadevi/infonavit2021.csv',
