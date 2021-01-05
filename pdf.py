@@ -1,6 +1,7 @@
 import pandas as pd 
 import tabula
 import matplotlib.pyplot as plt
+import numpy as np
 
 ##Url del Plan Estratégico y Financiero 2021-2025 del Infonavit
 url="https://portalmx.infonavit.org.mx/wps/wcm/connect/67e528e7-f13d-4dbf-a668-b29a594351c3/Plan_Estrategico_y_Financiero_2020-2024.pdf?MOD=AJPERES&CVID=mYkHiU3"
